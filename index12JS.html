@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>lesson12 js core</title>
+    <style>
+      .div {
+        border: 1px solid black;
+        width: 200px;
+        height: 200px;
+        background-color: darkviolet;
+        margin: 1px auto;
+      }
+      .block2 {
+        margin: 10px auto;
+        border: 5px solid rgb(149, 255, 0);
+        width: 200px;
+        height: 200px;
+        color: black;
+        text-align: center;
+        font-size: 20px;
+        background-color: darkviolet;
+      }
+      .conteiner {
+        display: flex;
+        justify-content: center;
+      }
+      .block3 {
+        width: 300px;
+        height: 300px;
+        border: 5px double black;
+        margin-left: 80px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="div"></div>
+
+    <div class="block2">У мене є секрет!</div>
+
+    <div class="conteiner">
+      <div class="block3" id="b1"></div>
+      <div class="block3" id="b2"></div>
+      <div class="block3" id="b3"></div>
+    </div>
+
+    <ol
+      onclick="addColor()"
+      style="
+        font-size: 30px;
+        font-weight: 500;
+        font-family: Arial, Helvetica, sans-serif;
+      "
+    >
+      <li class="color">red</li>
+      <li class="color1">yellow</li>
+      <li class="color2">green</li>
+      <li class="color3">blue</li>
+      <li class="color4">orange</li>
+      <li class="color5">gray</li>
+    </ol>
+
+    <script src="script12.js"></script>
+  </body>
+</html>
